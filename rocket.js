@@ -1,10 +1,10 @@
-var Jet = function (color, size) {
+var Rocket = function (color, size) {
   this.color = color;
   this.size = size;
 
-  this.takeOff = function () {
-    console.log("lift off!");
+  this.launch = function () {
+    console.log("3, 2, 1, blastoff!");
   };
 };
 
-module.exports = Jet;
+module.exports = Rocket;
